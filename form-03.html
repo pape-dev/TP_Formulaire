@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr" >
+<head>
+    <meta charset="utf-8" >
+    <title>exercices formulaires</title>
+    <link href="form-03.css" rel="stylesheet" type="text/css" >
+</head>
+<body>
+    <div class="wrapper">
+        <header >
+            <h1>formulaire</h2>
+
+            </header>
+
+            <form action="#" method="post" class="form-01">
+                <fieldset class="top">
+                    <p class="clearfix mtb5">
+                     <label for="name" class="fl-l w25">Nom</label>
+                     <input type="text" name="name" class="fl-r w70">
+                 </p>
+                 <p class="clearfix mtb5">
+                   <label for="email" class="fl-l w25">Email</label>
+                   <input type="text" name="email" class="fl-r w70">
+                   <p>
+                   </fieldset>
+                   <fieldset class="bottom">
+                    <p class="clearfix mtb15">
+                        <label for="select" class="fl-l w25"> Votre choix</label>
+                        <select id="select" class="selectors fl-r w70" name="selector">
+                            <option>Option 1</option> 
+                            <option>Option 2</option> 
+                            <option>Option 3</option> 
+                            <option>Option 4</option> 
+                            <option>Option 5</option> 
+                        </select>
+                    </p>
+                    <p class="check mtb15" >
+                        <label for="checkbox">Je veux recevoir la newsletter</label>
+                        <input type="checkbox" name="checkbox" class="bt">
+                    </p>
+                    <p class="check" >
+                        <span>Je veux des promotions</span>
+                        <label for="radio" class="bt ">Oui</label>
+                        <input type="radio" name="radio" value="radio1">
+                        <label for="radio2" class="bt">Non</label>
+                        <input type="radio" name="radio" value="radio2">
+                    </p>
+                    <p class="textarea clearfix">
+                        <label for="textarea" class="fl-l w35 vat">Votre message</label>
+                        <textarea name="textarea" class="fl-r w65"></textarea>
+                    </p>
+                    <p class="submit clearfix">
+                        <input type="reset" name="zero" class="w35 fl-l">
+                        <input type="submit" name="submit" class="w35 fl-r">
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+    </html>

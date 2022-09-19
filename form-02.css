@@ -1,0 +1,84 @@
+.form-contact {
+    background-color: #eef194;
+    width:465px;
+    padding:20px;
+    margin: 50px auto;    
+    border: 6px solid #8FB5C1;
+    position:relative;
+    font-family: arial, helvetica, sans-serif; 
+}
+
+.form-contact h1 {
+	font-size: 2em;
+}
+
+.form-contact h2 {
+	font-style:italic;
+	font-size: 1em;
+}
+
+.form-contact input, 
+.form-contact select, 
+.form-contactt textarea, 
+.form-contact label {
+    font-size:1.2em;
+    margin-bottom:5px;
+}
+
+.form-contact input, 
+.form-contact select, 
+.form-contact textarea {
+    width:100%;
+    border: 1px solid #ccd645;
+    margin-bottom:22px;
+    padding:2px;
+}
+
+.form-contact input:focus, 
+.form-contact select:focus, 
+.form-contact textarea:focus {
+    border: 1px solid #8d75c5;
+    background-color: #ebecb5;
+
+}
+
+
+
+.form-contact textarea {
+    height:150px;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+.form-contact label {
+    display:block;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+
+.form-contact .submit {
+    width: 100px;
+    color:#FFF;
+    border:none;
+    display:block;
+    float:right;
+    background-color:#8FB5C1;
+}
+
+.form-contact .submit:hover {
+    background-color: #A6CFDD;
+}
+
+.form-contact .submit:active {
+    position:relative;
+    top:1px;
+}
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+    overflow: hidden;
+}

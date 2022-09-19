@@ -1,0 +1,83 @@
+
+#contact {
+	width: 516px;
+	margin: 60px auto; 
+	padding: 60px 30px;
+	background: #d8adec;
+	border: 1px solid #5b1979;
+	font-family: arial, helvetica, sans-serif;
+	box-sizing:border-box;
+
+}
+fieldset {
+	padding: 10px;
+}
+h1 {
+	font-size: 35px; 
+	color: #7b50b1;
+	text-transform: uppercase;
+	text-align: center; 
+	margin: 0 0 35px 0; 
+}
+
+label {
+	float: left; 
+	margin: 11px 20px 0 0; 
+	width: 115px;
+	text-align: right; 
+	font-size: 16px; 
+	color: #445668; 
+	text-transform: uppercase;
+
+}
+
+input {
+	width: 235px; 
+	height: 30px; 
+	padding: 5px 20px 0px 20px; 
+	margin: 0 0 20px 0; 
+	background: #d5c0de;
+	font-size: 14px; 
+	color: #ededed; 
+	text-transform: uppercase; 
+	float: left;
+}
+textarea {
+	width: 235px; 
+	height: 140px; 
+	padding: 12px 20px 0px 20px; 
+	margin: 0 0 20px 0; 
+	background: #d5c0de;
+	font-size: 14px; 
+	color: #d5c0de;
+	font-family: arial, helvetica, sans-serif;
+}
+
+input:focus, 
+textarea:focus, 
+input[type=submit]:hover {
+	background: #b4c4d4;
+}
+
+input[type=submit] {
+	width: 175px; 
+	height: 45px; 
+	float: right; 
+	padding: 10px 15px; 
+	margin: 0 15px 0 0;
+	border: 1px solid #556f8c;
+	color: #565e68;
+}
+::-moz-placeholder 
+/*on cible mozilla car le texte de placeholder est trop clair*/
+{
+	color: #493d3d;
+}
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+	/*overflow: hidden;*/
+}

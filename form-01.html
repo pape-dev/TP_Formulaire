@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr" >
+<head>
+    <meta charset="utf-8" >
+    <title>exercices formulaires</title>
+    <link href="form-01.css" rel="stylesheet" type="text/css" >
+</head>
+<body>
+    <div class="wrapper">
+        <header >
+            <h1>formulaire</h2>
+
+            </header>
+            <div id="contact">
+                <h1>Nous contacter</h1>
+                <form action="#" method="post">
+                    <fieldset>
+                        <label for="nom">Nom</label>
+                        <input id="nom" placeholder="Votre nom" type="text" class="clearfix">
+                        <!-- notez les clearfix sur les input -->
+                        <label for="email">Email</label>
+                        <input id="email" placeholder="Votre email" type="email" class="clearfix">
+                        
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Que voulez-vous nous dire?" class="clearfix"></textarea>
+                        
+                        <input value="Envoyer" type="submit" class="clearfix">
+                        
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </body>
+    </html>
